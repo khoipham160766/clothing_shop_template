@@ -30,25 +30,25 @@ export const type = [
     {
         id: 1,
         title: 'T-Shirt' ,
-        images: '../images/clothing-shop/t-shirt.png',
+        images: './images/clothing-shop/t-shirt.png',
         quantity: '3' ,
     },
     {
         id: 2,
         title: 'Shirt',
-        images: '../images/clothing-shop/shirt.png',
+        images: './images/clothing-shop/shirt.png',
         quantity: '1',
     },
     {
         id: 3,
         title: 'Sweater',
-        images: '../images/clothing-shop/sweater.png',
+        images: './images/clothing-shop/sweater.png',
         quantity: '1',
     },
     {
         id: 4,
         title: 'Hoodie',
-        images: '../images/clothing-shop/hoodie.png',
+        images: './images/clothing-shop/hoodie.png',
         quantity: '1',
     },
 ];

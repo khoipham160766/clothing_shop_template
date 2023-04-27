@@ -11,7 +11,7 @@ const Footer = () => {
           <div className='row align-items-center '>
             <div className='col-12 col-md-5 mb-2 text-center'>
               <div className='footer-top-data d-flex gap-30 align-items-center'>
-                <img src='../images/newsletter.png' alt="" />
+                <img src='./images/newsletter.png' alt="" />
                 <h2 className='mb-0 text-white fs-4'>Đăng ký để nhận tin mới</h2>
               </div>
             </div>
