@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import './mobile-css.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import OurStore from './pages/OurStore';
@@ -26,7 +26,7 @@ import Checkout from './pages/Checkout';
 function App() {
   return(
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path='/' element={<Layout />}>
             <Route index element={<Home />} />
@@ -50,7 +50,7 @@ function App() {
             <Route path='term-and-condition' element={<TermandCondition />} />
           </Route> 
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
