@@ -20,7 +20,7 @@ const SingleBlog = () => {
                   Thời trang mùa hè
                 </h3>
                 <img
-                  src="../images/clothing-shop/image-blog.png"
+                  src="./images/clothing-shop/image-blog.png"
                   className="img-fluid w-100 my-1"
                   alt=""
                 />

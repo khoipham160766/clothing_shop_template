@@ -11,7 +11,7 @@ const BlogCard = () => {
         <div className={` ${location.pathname === "/blogs" ? `col-12 col-md-6 col-xl-4` : `col-12 col-md-4 col-lg-4 col-xl-3` } mb-3`} onClick={handleScrollToTop}>
             <div className='blog-card'>
                 <div className='card-image'>
-                    <img className='img-fluid w-100' src="../images/clothing-shop/image-blog.png" alt="" />
+                    <img className='img-fluid w-100' src="./images/clothing-shop/image-blog.png" alt="" />
                 </div>
                 <div className='blog-content'>
                     <p className='date'>17 tháng 4, 2023</p>

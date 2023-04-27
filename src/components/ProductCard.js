@@ -19,7 +19,7 @@ const ProductCard = (props) => {
                 }
                 <div className='wishlist-icon position-absolute'>
                     <button className='border-0 bg-transparent'>
-                        <img src="../images/wish.svg" alt="" />
+                        <img src="./images/wish.svg" alt="" />
                     </button>
                 </div>
                 <div className='product-image'>
@@ -69,13 +69,13 @@ const ProductCard = (props) => {
                 <div className='action-bar position-absolute'>
                     <div className='d-flex flex-column gap-15'>
                         <button className='border-0 bg-transparent'>
-                            <img src="../images/prodcompare.svg" alt="" />
+                            <img src="./images/prodcompare.svg" alt="" />
                         </button>
                         <button className='border-0 bg-transparent'>
-                            <img src="../images/view.svg" alt="" />
+                            <img src="./images/view.svg" alt="" />
                         </button>
                         <button className='border-0 bg-transparent'>
-                            <img src="../images/add-cart.svg" alt="" />
+                            <img src="./images/add-cart.svg" alt="" />
                         </button>
                     </div>
                 </div>

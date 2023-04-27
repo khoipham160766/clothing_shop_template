@@ -26,7 +26,7 @@ const Wishlist = () => {
                     <div className="col-6 col-sm-4 col-lg-3" key={index}>
                         <div className="wishlist-card position-relative">
                             <img
-                            src="../images/cross.svg"
+                            src="./images/cross.svg"
                             alt="cross"
                             className="position-absolute cross img-fluid"
                             />

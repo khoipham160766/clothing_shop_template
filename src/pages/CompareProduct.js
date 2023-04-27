@@ -27,7 +27,7 @@ const CompareProduct = () => {
                     compare?.map((item,index)=>(
                         <div className='col-6 col-sm-4 col-md-3 col-lg-3' key={index}>
                             <div className='compare-product-card position-relative'>
-                                <img className='position-absolute cross' src="../images/cross.svg" alt="" />
+                                <img className='position-absolute cross' src="./images/cross.svg" alt="" />
                                 <div className='product-card-image'>
                                     <img src={item.main_image} className='img-fluid' alt="" />
                                 </div>

@@ -34,7 +34,7 @@ const Header = () => {
             <div className="col-12 col-lg-2 col-xl-2 part-1">
               <h2>
                 <Link className="text-white" to="/">
-                  <img src="../images/clothing-shop/main-logo.png" alt=""  className="img-fluid image-logo"/>
+                  <img src="./images/clothing-shop/main-logo.png" alt=""  className="img-fluid image-logo"/>
                 </Link>
               </h2>
             </div>
@@ -56,7 +56,7 @@ const Header = () => {
               <div className="header-upper-links d-flex align-items-center justify-content-between">
                 <div>
                   <Link to="/compare-product" className="d-flex align-items-center gap-10 text-white">
-                    <img src="../images/compare.svg" alt="" />
+                    <img src="./images/compare.svg" alt="" />
                     <p className="mb-0">
                       So sánh
                     </p>
@@ -64,7 +64,7 @@ const Header = () => {
                 </div>
                 <div>
                   <Link to="/wishlist" className="d-flex align-items-center gap-10 text-white">
-                    <img src="../images/wishlist.svg" alt="" />
+                    <img src="./images/wishlist.svg" alt="" />
                     <p className="mb-0">
                       Sản phẩm <br /> yêu thích
                     </p>
@@ -72,7 +72,7 @@ const Header = () => {
                 </div>
                 <div>
                   <Link to="/cart" className="d-flex align-items-center gap-10 text-white">
-                    <img src="../images/cart.svg" alt="" />
+                    <img src="./images/cart.svg" alt="" />
                     <div className="d-flex flex-column gap-10">
                       <span className="badge bg-white text-dark" style={{width: "30px"}}>1</span>
                       <p className="mb-0">63.000đ</p>
@@ -81,7 +81,7 @@ const Header = () => {
                 </div>
                 <div className="class-log-reg position-relative">
                   <div className=" d-flex align-items-center gap-10 text-white">
-                    <img src="../images/user.svg" alt="" />
+                    <img src="./images/user.svg" alt="" />
                     <p className="mb-0">
                       Tài khoản
                     </p>

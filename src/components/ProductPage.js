@@ -27,25 +27,25 @@ const ProductPage = () => {
             <div className="d-flex gap-10 align-items-center grid action-page-product">
               <img
                 onClick={()=>{ setGrid(3) }}
-                src="../images/gr4.svg"
+                src="./images/gr4.svg"
                 className="d-block img-fluid"
                 alt=""
               />
               <img
                 onClick={()=>{ setGrid(4) }}
-                src="../images/gr3.svg"
+                src="./images/gr3.svg"
                 className="d-block img-fluid"
                 alt=""
               />
               <img
                 onClick={()=>{ setGrid(6) }}
-                src="../images/gr2.svg"
+                src="./images/gr2.svg"
                 className="d-block img-fluid"
                 alt=""
               />
               <img
                 onClick={()=>{ setGrid(12) }}
-                src="../images/gr.svg"
+                src="./images/gr.svg"
                 className="d-block img-fluid"
                 alt=""
               />

@@ -107,7 +107,7 @@ const Checkout = () => {
                     </span>
                     <img
                       className="img-fluid bg-white"
-                      src="../images/clothing-shop/1.png"
+                      src="./images/clothing-shop/1.png"
                       alt=""
                     />
                   </div>
